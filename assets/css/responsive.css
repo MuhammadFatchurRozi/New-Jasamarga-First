@@ -1,0 +1,185 @@
+@media (max-width: 1300px) {}
+
+@media (max-width: 1120px) {}
+
+@media (max-width: 992px) {
+    .hero_area {
+        height: auto;
+    }
+    .navbar-brand {
+        display: flex;
+    }
+    .header_top {
+        font-size: 12px;
+    }
+    .header_section .main_nav {
+        flex: 1;
+    }
+    .feature_section {
+        align-items: center;
+        text-align: center;
+    }
+    .feature_container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #navbarSupportedContent {
+        margin-top: 15px;
+    }
+    .slider_section {
+        padding-top: 45px;
+        text-align: center;
+    }
+    .slider_section .detail-box p {
+        width: auto;
+    }
+    .feature_section .feature_container .box {
+        padding: 30px 15px;
+    }
+    .feature_section .feature_container .box .img-box {
+        width: 75px;
+    }
+    .feature_section {
+        transform: none;
+        padding: 90px 0;
+    }
+    .dropdown {
+        display: grid;
+    }
+    .dropdown_menu {
+        position: relative;
+        top: 0;
+        width: auto;
+    }
+    .dropdown_menu a {
+        font-size: 11px;
+    }
+    .dropdown_menu-8 {
+        animation: none;
+        transform-origin: none;
+    }
+    .dropdown_menu-8 .dropdown_item-1 {
+        transform-origin: top center;
+        animation: slideDown 300ms 60ms ease-in-out forwards;
+    }
+    .dropdown_menu-8 .dropdown_item-2 {
+        transform-origin: top center;
+        animation: slideDown 300ms 120ms ease-in-out forwards;
+    }
+    .dropdown_menu-8 .dropdown_item-3 {
+        transform-origin: top center;
+        animation: slideDown 300ms 180ms ease-in-out forwards;
+    }
+    .dropdown_menu-8 .dropdown_item-4 {
+        transform-origin: top center;
+        animation: slideDown 300ms 240ms ease-in-out forwards;
+    }
+    @-moz-keyframes slideDown {
+        0% {
+            opacity: 0;
+            transform: translateY(-60px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    @-webkit-keyframes slideDown {
+        0% {
+            opacity: 0;
+            transform: translateY(-60px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    @-o-keyframes slideDown {
+        0% {
+            opacity: 0;
+            transform: translateY(-60px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    @keyframes slideDown {
+        0% {
+            opacity: 0;
+            transform: translateY(-60px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .header_top {
+        font-size: 10px;
+    }
+    .layout_padding {
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+    .layout_padding-top {
+        padding-top: 90px;
+    }
+    .layout_padding-bottom {
+        padding-bottom: 90px;
+    }
+    .slider_section .detail-box {
+        padding-bottom: 45px;
+        text-align: center;
+    }
+    .feature_section .container {
+        align-items: center;
+        text-align: center;
+    }
+    .feature_section .feature_container {
+        flex-direction: column;
+    }
+    .feature_section .feature_container .box {
+        padding: 30px 15px;
+    }
+    .feature_section .feature_container .box:not(:nth-last-child(1)) {
+        margin-bottom: 15px;
+    }
+    .about_section .detail-box {
+        margin-bottom: 45px;
+    }
+    .professional_section .img-box {
+        display: none;
+    }
+    .contact_section form {
+        margin-bottom: 45px;
+    }
+    .info_section .info_items::before {
+        width: 1px;
+        height: 90%;
+        top: 25px;
+    }
+}
+
+@media (max-width: 576px) {}
+
+@media (max-width: 480px) {
+    .header_top span,
+    i {
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 400px) {}
+
+@media (max-width: 360px) {}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1170px;
+    }
+}
