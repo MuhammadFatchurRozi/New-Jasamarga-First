@@ -35,6 +35,9 @@
     .slider_section .detail-box p {
         width: auto;
     }
+    .slider_section .detail-box marquee {
+        width: auto;
+    }
     .feature_section .feature_container .box {
         padding: 30px 15px;
     }
@@ -135,6 +138,9 @@
     .slider_section .detail-box {
         padding-bottom: 45px;
         text-align: center;
+    }
+    .slider_section .detail-box marquee {
+        max-width: fit-content;
     }
     .feature_section .container {
         align-items: center;

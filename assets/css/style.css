@@ -85,7 +85,7 @@ a:focus {
 
 .hero_area {
     position: relative;
-    background-image: url('../images/IMG_0578.JPG');
+    background-image: url('../images/gerbang-Pandaan.png');
     /* Full height */
     height: 100%;
     /* Center and scale the image nicely */
@@ -438,13 +438,33 @@ a:focus {
 
 .slider_section .detail-box {
     padding-bottom: 90px;
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 
-.slider_section .detail-box h1 {
-    font-weight: bold;
+.slider_section .detail-box marquee {
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 1px;
+    width: 35rem;
+    display: grid;
+}
+
+.slider_section .detail-box h2 {
+    font-size: 36px;
+    font-weight: 400;
+    color: #fff;
     margin-bottom: 25px;
-    color: #0355cc;
+}
+
+.slider_section .detail-box h2 span {
+    font-weight: 700;
+    color: #33c1cf!important;
+}
+
+.slider_section .detail-box h2 em {
+    font-style: normal;
+    font-weight: 700;
+    color: #f89624!important;
 }
 
 .slider_section .detail-box p {
@@ -577,6 +597,7 @@ a:focus {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    height: 20rem;
 }
 
 .service_section .box .img-box {
@@ -620,32 +641,6 @@ a:focus {
 .service_section .box:hover .img-box img {
     -webkit-filter: brightness(0) invert(1);
     filter: brightness(0) invert(1);
-}
-
-.service_section .btn-box {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    margin-top: 45px;
-}
-
-.service_section .btn-box a {
-    display: inline-block;
-    font-family: 'Merriweather Sans', sans-serif;
-    text-transform: uppercase;
-    padding: 10px 45px;
-    background-color: #0355cc;
-    border: 1px solid #0355cc;
-    border-radius: 0;
-    color: #ffffff;
-}
-
-.service_section .btn-box a:hover {
-    background-color: transparent;
-    color: #0355cc;
 }
 
 .client_section .heading_container {
