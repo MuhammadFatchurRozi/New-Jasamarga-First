@@ -115,11 +115,25 @@
                         <img class="box" src="assets/images/1.jpg" alt="Image About">
                     </div>
                     <div class="box">
-                        <div class="wrapper">
-                            <div class="a">History</div>
-                            <div class="b">Vision</div>
-                            <div class="c">Goals</div>
-                            <div class="isi">Sejarah PT JPT ....</div>
+                        <div class="wrapper" id="menu">
+
+                            <div class="a">
+                                <a href="history">History</a>
+                            </div>
+
+                            <div class="b">
+                                <a href="vision">Vision</a>
+                            </div>
+
+                            <div class="c">
+                                <a href="goals">Goals</a>
+                            </div>
+
+
+
+                        </div>
+                        <div class="isi" id="konten">
+
                         </div>
                     </div>
                 </div>
@@ -224,8 +238,23 @@
     <!-- Google Map -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
     <!-- End Google Map -->
-
-
+    <!-- ajax -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 </body>
+<script>
+    $(document).ready(function() {
+        // halaman default
+        $('#konten').load('vision.html');
+
+        // fungsi yang mengatur konten mana yang akan ditampilkan
+        $('#menu a').click(function() {
+            // mengambil data dari href
+            var hal = $(this).attr('href');
+            // konten akan diisi oleh menu yang dipilih sesuai dengan isi dari href yang dipilih
+            $('#konten').load(hal + ".html");
+            return false;
+        });
+    });
+</script>
 
 </html>
