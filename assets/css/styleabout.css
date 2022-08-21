@@ -1,0 +1,45 @@
+body {
+    background-color: #ecf3f5;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.judul {
+    text-align: center;
+}
+
+.box {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, [col] 33%);
+    grid-row: 2;
+}
+
+.a {
+    grid-column: col / span 1;
+    grid-row: row;
+}
+
+.b {
+    grid-column: col 2 / span 1;
+    grid-row: row;
+}
+
+.c {
+    grid-column: col 3 / span 1;
+    grid-row: row;
+}
+
+.isi {
+    grid-column: col / span 3;
+    grid-row: row 2;
+    background-color: white;
+}
