@@ -169,6 +169,9 @@
         height: 90%;
         top: 25px;
     }
+    footer {
+        margin-top: 5rem;
+    }
 }
 
 @media (max-width: 576px) {
