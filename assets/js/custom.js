@@ -1,4 +1,3 @@
-// Get Current Year
 //client section owl carousel
 $(".owl-carousel").owlCarousel({
     loop: true,

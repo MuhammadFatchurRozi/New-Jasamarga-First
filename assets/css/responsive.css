@@ -119,6 +119,9 @@
             transform: translateY(0);
         }
     }
+    .service_section .box {
+        height: 25rem;
+    }
 }
 
 @media (max-width: 767px) {
@@ -158,9 +161,6 @@
     .about_section .detail-box {
         margin-bottom: 45px;
     }
-    .professional_section .img-box {
-        display: none;
-    }
     .contact_section form {
         margin-bottom: 45px;
     }
@@ -171,18 +171,29 @@
     }
 }
 
-@media (max-width: 576px) {}
+@media (max-width: 576px) {
+    .service_section .box {
+        height: 16rem;
+    }
+}
 
 @media (max-width: 480px) {
     .header_top span,
     i {
         font-size: 9px;
     }
+    .service_section .box {
+        height: 18rem;
+    }
 }
 
 @media (max-width: 400px) {}
 
-@media (max-width: 360px) {}
+@media (max-width: 360px) {
+    .service_section .box {
+        height: 22rem;
+    }
+}
 
 @media (min-width: 1200px) {
     .container {
