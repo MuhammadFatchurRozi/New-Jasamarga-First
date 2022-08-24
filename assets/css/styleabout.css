@@ -19,7 +19,7 @@ body {
 
 .wrapper {
     display: grid;
-    grid-template-columns: repeat(3, [col] 33%);
+    grid-template-columns: repeat(4, [col] 25%);
     grid-row: 2;
 }
 
@@ -38,8 +38,13 @@ body {
     grid-row: row;
 }
 
+.d {
+    grid-column: col 4 / span 1;
+    grid-row: row;
+}
+
 .isi {
-    grid-column: col / span 3;
+    grid-column: col / span 4;
     grid-row: row 2;
     background-color: white;
 }
