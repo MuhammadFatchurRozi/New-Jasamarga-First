@@ -1,0 +1,82 @@
+/**************************************
+
+    File Name: tech.css
+    Template Name: Tech Blog
+    Created By: HTML.Design
+    http://themeforest.net/user/wpdestek
+
+**************************************/
+
+body {
+    background-color: #ffffff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+body,
+p {
+    font-family: 'Poppins', serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 600;
+}
+
+.blog-meta.big-meta h4 {
+    font-size: 24px;
+}
+
+.blog-grid-system .color-orange {
+    display: block;
+    margin-top: 1rem;
+}
+
+.blog-grid-system .color-orange a {
+    color: #ffffff !important;
+    font-size: 13px;
+    padding: 0 0.7rem;
+    border-radius: 3px;
+}
+
+.blog-meta small a,
+.blog-meta small {
+    font-weight: 500;
+    color: #999 !important;
+}
+
+.blog-meta .bg-orange {
+    color: #ffffff !important;
+    padding: 0 0.8rem;
+    border-radius: 3px;
+}
+
+.blog-meta small.firstsmall:after {
+    content: "" !important;
+    padding-left: 0;
+}
+
+.bg-orange {
+    background-color: #FF6347 !important;
+}
+
+.page-title .bg-orange,
+.masonry-box:hover .blog-meta span.bg-orange,
+.color-orange a {
+    background-color: #FF6347 !important;
+}
+
+.btn,
+.page-link:hover,
+.page-link:focus,
+.btn:hover,
+.btn:focus {
+    color: #ffffff !important;
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, #0091e5 0px, #00b7e5 100%) repeat scroll 0 0 !important
+}
