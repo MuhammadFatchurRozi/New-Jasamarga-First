@@ -79,15 +79,26 @@ body {
 }
 
 ul {
-    list-style-type: none;
+    /* list-style-type: none; */
+    list-style-position: inside;
+}
+
+ol {
+    /* list-style-type: none; */
+    list-style-position: inside;
 }
 
 a {
     text-decoration: none;
 }
 
-img:not(.logo) {
+img:not(.foto) {
     width: 100%;
+}
+
+.foto {
+    width: 50%;
+    height: auto;
 }
 
 img {
@@ -124,6 +135,7 @@ h4 {
 p {
     margin-bottom: 1.25rem;
     color: var(--clr-grey-5);
+    text-align: justify;
 }
 
 @media screen and (min-width: 800px) {
@@ -294,4 +306,14 @@ main {
 
 .content.active {
     display: block;
+}
+
+.tatanilai {
+    color: #0193ac;
+    font-size: 28px;
+}
+
+.tatanilai2 {
+    font-size: 16px;
+    color: #182957;
 }
