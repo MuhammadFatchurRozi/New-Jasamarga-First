@@ -1,34 +1,19 @@
-function loadHistory() {
-    var xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
-            document.getElementById("demo").innerHTML =
-                this.responseText;
-        }
-    };
-    xhttp.open("GET", "history.html", true);
-    xhttp.send();
-}
-
-function loadVision() {
-    var xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
-            document.getElementById("demo").innerHTML = this.responseText;
-        }
-    };
-    xhttp.open("GET", "vision.html", true);
-    xhttp.send();
-}
-
-function loadGoals() {
-    var xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
-            document.getElementById("demo").innerHTML =
-                this.responseText;
-        }
-    };
-    xhttp.open("GET", "goals.html", true);
-    xhttp.send();
-}
+const about = document.querySelector(".about");
+const btns = document.querySelectorAll(".tab-btn");
+const articles = document.querySelectorAll(".content");
+about.addEventListener("click", function(e) {
+    const id = e.target.dataset.id;
+    if (id) {
+        // remove selected from other buttons  
+        btns.forEach(function(btn) {
+            btn.classList.remove("active");
+        });
+        e.target.classList.add("active");
+        // hide other articles  
+        articles.forEach(function(article) {
+            article.classList.remove("active");
+        });
+        const element = document.getElementById(id);
+        element.classList.add("active");
+    }
+});

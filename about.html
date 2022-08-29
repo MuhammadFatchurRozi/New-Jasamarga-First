@@ -1,249 +1,195 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <!-- Basic -->
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <!-- Mobile Metas -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <!-- Site Metas -->
-    <meta name="keywords" content="" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-
-    <title>About</title>
-
-    <!-- slider stylesheet -->
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
-    <!-- bootstrap core css -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-    <!-- font awesome style -->
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
-
-    <!-- Custom styles for this template -->
-    <link href="css/style.css" rel="stylesheet" />
-    <!-- responsive style -->
-    <link href="css/responsive.css" rel="stylesheet" />
-
-    <!-- Style about -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabs</title>
+    <!-- styles -->
     <link rel="stylesheet" href="assets/css/styleabout.css" />
-    <link rel="stylesheet" href="../5/simplex/bootstrap.css">
-
 </head>
 
 <body>
-    <div class="hero_area">
-        <!-- header section strats -->
-        <header class="header_section">
-            <div class="header_top">
-                <div class="container-fluid">
-                    <div class="contact_nav">
-                        <a href="">
-                            <i class="fa fa-phone" aria-hidden="true"></i>
-                            <span> Call : +01 123455678990 </span>
+    <section class="section">
+        <div class="title">
+            <h2>about</h2>
+            <a>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, aperiam!
+            </a>
+        </div>
+        <div class="about-center section-center">
+            <article class="about-img">
+                <img src="assets/images/1.jpg" alt="" />
+            </article>
+            <article class="about">
+                <!-- btn container -->
+                <div class="btn-container">
+                    <button class="tab-btn active" data-id="visidanmisi">Visi, Misi dan Tata Nilai</button>
+                    <button class="tab-btn" data-id="strorganisasi">Struktur Organisasi</button>
+                    <button class="tab-btn" data-id="ssndewankomis">Susunan Dewan Komisaris</button>
+                    <button class="tab-btn" data-id="ssndireksi">Susunan Direksi</button>
+                </div>
+                <div class="about-content">
+                    <!-- Visi, Misi dan Tata Nilai-->
+                    <div class="content active" id="visidanmisi">
+                        <h4>Visi</h4>
+                        <p>
+                            Menjadi Pengelola Jalan Tol Yang Handal, Terpercaya, Inovatif dan Berestetika.
+                        </p>
+                        <h4>Misi</h4>
+                        <ul>
+                            <li>Memberikan kontribusi pengembangan kawasan sekitar</li>
+                            <li>Melaksanakan pengelolaan perusahaan secara profesional</li>
+                            <li>Menunjang kelancaran distribusi barang dan jasa</li>
+                            <li>Meningkatkan pelayanan secara berkesinambungan untuk memenuhi kepuasan pelanggan</li>
+                        </ul><br>
+                        <h4>Tata Nilai</h4>
+                        <span class="tatanilai">
+                            <strong>
+                                <em>A</em>
+                            </strong>
+                        </span>
+                        <span class="tatanilai2">
+                            <strong>MANAH</strong>
+                        </span><br>
+                        <a>
+                            Memegang teguh kepercayaan yang diberikan.
+                        </a><br>
+                        <span class="tatanilai">
+                            <strong>
+                                <em>K</em>
+                            </strong>
+                        </span>
+                        <span class="tatanilai2">
+                            <strong>OMPETEN</strong>
+                        </span><br>
+                        <a>
+                            Terus belajar dan mengembangkan kapabilitas.
+                        </a><br>
+                        <span class="tatanilai">
+                            <strong>
+                                <em>H</em>
+                            </strong>
+                        </span>
+                        <span class="tatanilai2">
+                            <strong>ARMONIS</strong>
+                        </span><br>
+                        <a>
+                            Saling peduli dan menghargai perbedaan.
+                        </a><br>
+                        <span class="tatanilai">
+                            <strong>
+                                <em>L</em>
+                            </strong>
+                        </span>
+                        <span class="tatanilai2">
+                            <strong>OYAL</strong>
+                        </span><br>
+                        <a>
+                            Berdedikasi dan mengutamakan kepentingan Bangsa dan Negara.
+                        </a><br>
+                        <span class="tatanilai">
+                            <strong>
+                                <em>A</em>
+                            </strong>
+                        </span>
+                        <span class="tatanilai2">
+                            <strong>DAPTIF</strong>
+                        </span><br>
+                        <a>
+                            Terus berinovasi dan antusias dalam menggerakkan ataupun menghadapi perubahan.
+                        </a><br>
+                        <span class="tatanilai">
+                            <strong>
+                                <em>K</em>
+                            </strong>
+                        </span>
+                        <span class="tatanilai2">
+                            <strong>OLABORATIF</strong>
+                        </span><br>
+                        <a>
+                            Membangun kerja sama yang sinergis.
                         </a>
-                        <a href="">
-                            <i class="fa fa-envelope" aria-hidden="true"></i>
-                            <span> Email : demo@gmail.com </span>
-                        </a>
+
                     </div>
-                </div>
-            </div>
-            <div class="header_bottom">
-                <div class="container-fluid">
-                    <nav class="navbar navbar-expand-lg custom_nav-container ">
-                        <a class="navbar-brand" href="index.html">
-                            <span> Inance </span>
-                        </a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class=""> </span>
-                        </button>
-
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav ">
-                                <li class="nav-item ">
-                                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                                </li>
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="about.html"> About</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="service.html">Services</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="contact.html">Contact Us</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
-                </div>
-            </div>
-        </header>
-        <!-- end header section -->
-    </div>
-
-    <!-- about section -->
-
-    <section class="about_section layout_padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-md-6">
-                    <div class="container">
-                        <div class="judul">
-                            <h2>
-                                About us
-                            </h2>
+                    <!-- end of Visi, Misi dan Tata Nilai-->
+                    <!-- Struktur Organisasi -->
+                    <div class="content" id="strorganisasi">
+                        <h4>Struktur Organisasi</h4>
+                        <img src="assets/images/struktur-organisasi.png" alt="">
+                    </div>
+                    <!-- end of Struktur Organisasi -->
+                    <!-- Susunan Dewan Komisaris -->
+                    <div class="content" id="ssndewankomis">
+                        <ol>
+                            <h4>
+                                <li>KOMISARIS UTAMA</li>
+                                Jeffri Susanto
+                                <!-- <div class="foto">
+                                    <img src="assets/images/" alt="">
+                                </div> -->
+                            </h4>
                             <p>
-                                There are many variations of passages of Lorem Ipsum available
+                                Lahir di Jakarta pada tanggal 28 Januari 1987. Saat ini menjabat sebagai Komisaris Utama PT Jasamarga Pandaan Tol. Gelar S1 dari Universitas Pelita Harapan. Pernah menjabat sebagai Konsultan Hukum Frans Winarta & Partners (2009-2010), Konsultan Hukum
+                                Rossdiono & Partners (2010-2014), Head of Legal PT Mandiri Manajemen Investasi (2014-2018), Alternative Investment PT Mandiri Manajemen Investasi (2018-Sekarang), Komisaris PT Jasamarga Ngawi Kertono (2018-sekarang), Direktur
+                                PT Lintas Marga Jawa (2018-sekarang), Komisaris PT Trans Optima Luhur (2019-sekarang).
                             </p>
-                            <a href="">
-                                Read More
-                            </a>
-                        </div>
+                            <h4>
+                                <li>KOMISARIS</li>
+                                Ir. Budi Pramono
+                                <div class="foto">
+                                    <img src="assets/images/Budi-Pramono.png" alt="">
+                                </div>
+                            </h4>
+                            <p>
+                                Lahir di Banyuwangi pada tanggal 18 Juli 1960. Saat ini menjabat sebagai Komisaris PT Jasamarga Pandaan Tol. Gelar S1 dari Institut Teknologi 10 November Surabaya. Pernah bertugas di Jasa Marga menjabat sebagai Staf Bag. Popt Cabang Jakarta Merak (1986),
+                                Staf Ranting Tangerang Cabang Jakarta Merak (1986-1987), Kasubbag. Perencanaan dan Evaluasi Cabang Jakarta Merak (1987), Kasubbag. Pengendalian Operasi Pengumpul Tol Ranting Khusus Cengkareng (1987-1988), Kasubbag. Pendataan
+                                dan Fasilitas Tol Cabang Cengkareng (1988), Kasubbag. Pemeliharaan Cabang Cengkareng (1988), Kasubbag. Pendataan dan Fasilitas Tol Cabang Cengkareng (1988), Kasubbag. Pendataan dan Fasilitas Tol Cabang Belmera (1990), Pimpro
+                                Modifikasi Software dan Hardware Peralatan Tol Cabang Belmera (1991), Kasubbag. Pendataan dan Fasilitas Tol Cabang Belmera (1991), Ka. Bag. Pengendalian Operasi Cabang Camang Cengkareng (1992-1994), Kepala Bagian Pengendalian
+                                Lalin Cabang Cawang Tomang Cengkareng (1994-1995), Kepala Bagian Pengendalian Pengumpulan Tol Cabang Cawang Tomang Cengkareng (1995-1998), Kepala Bagian Teknik Cabang Jakarta Cikampek (1998-2001), Kepala Cabang Belmera
+                                (2001-2002), Kepala Cabang Surabaya Gempol Mojokerto (2002-2005), Kepala Cabang Jagorawi (2005-2006), Pemimpin Proyek Pemeliharaan dan Peningkatan Jalan Tol Jakarta Tangerang (2006-2009), Kepala Cabang Jakarta Cikampek
+                                (2009-2011), Pemimpin Proyek Penambahan Lajur Jalan Tol Jakarta Cikampek (2011-2012), Staf Utama Bidang Manajemen Operasi PT Trans Lingkar Kita Jaya (2012-2013), Advisor PT Trans Lingkar Kita Jaya (2013-2014), Direktur
+                                Utama PT Jasamarga Surabaya Mojokerto (2014-2019).
+                            </p>
+                        </ol>
                     </div>
+                    <!-- end of Susunan Dewan Komisaris -->
+                    <!-- Susunan Direksi -->
+                    <div class="content" id="ssndireksi">
+                        <ol>
+                            <h4>
+                                <li>DIREKTUR UTAMA</li>
+                                Netty Renova, ST
+                                <div class="foto">
+                                    <img src="assets/images/Netty-Renova.png" alt="">
+                                </div>
+                            </h4>
+                            <p>
+                                Lahir di Medan pada tanggal 25 Februari 1973. Saat ini menjabat sebagi Direktur Utama PT Jasamarga Pandaan Tol. Gelar S1 dari Universitas Gajah Mada dan Gelar S2 dari Universitas Diponegoro. Pernah menjabat sebagai Kepala Seksi Perencanaan dan Administrasi
+                                Teknik (2008-2012), Kepala Bagian Monitoring dan Evaluasi Program Kerja Perusahaan (2012-2013), Assistant Vice President Corporate Performance Review (2013-2014), Assistant Vice President Strategic Planning (2014-2015),
+                                Kepala Biro Keuangan & Umum PT Jasamarga Kunciran Cengkareng (2016-2018), Procurement & Fix Asset Group Head (2019), Direktorat Keuangan PT Jasamarga Semarang Batang (2019), Direktur Keuangan PT Jasamarga Semarang Batang
+                                (2021).
+                            </p>
+                            <h4>
+                                <li>DIREKTUR KEUANGAN & SDM</li>
+                                Ir. Bahrul Alam
+                                <div class="foto">
+                                    <img src="assets/images/Bahrul-Alam.png" alt="">
+                                </div>
+                            </h4>
+                            <p>
+                                Lahir di Pasuruan pada tanggal 27 November 1969. Menjabat sebagai Direktur Keuangan dan Sumber Daya Manusia, pernah menjabat sebagai Komisaris PT Jalan Tol Kabupaten Pasuruan (2015-2016), Direktur Operasi dan Umum PT Jasamarga Pandaan Tol (2016-2017),
+                                Gelar S1 Teknik Mesin dari Universitas Darul Ulum Jombang.
+                            </p>
+                        </ol>
+                    </div>
+                    <!-- Susunan Direksi -->
                 </div>
-                <div id="container">
-                    <div>
-                        <img class="box" src="assets/images/1.jpg" alt="Image About">
-                    </div>
-                    <div class="box">
-                        <div class="wrapper" id="menu">
-                            <span class="a center" id="select">
-                                <a href="history">History</a>
-                            </span>
-                            <span class="b center" id="select">
-                                <a href="vision">Vision</a>
-                            </span>
-                            <span class="c center" id="select">
-                                <a href="goals">Goals</a>
-                            </span>
-                            <span class="d center" id="select">
-                                <a href="extra">Extra</a>
-                            </span>
-                        </div>
-                        <div class="isi" id="konten">
-                            <!-- konten isi ajax -->
-                        </div>
-                    </div>
-                </div>
-            </div>
+            </article>
         </div>
     </section>
-    <!-- end about section -->
-
-    <!-- info section -->
-    <section class="info_section ">
-        <div class="container">
-            <h4>
-                Get In Touch
-            </h4>
-            <div class="row">
-                <div class="col-lg-10 mx-auto">
-                    <div class="info_items">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <a href="">
-                                    <div class="item ">
-                                        <div class="img-box ">
-                                            <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                        </div>
-                                        <p>
-                                            Lorem Ipsum is simply dummy text
-                                        </p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-4">
-                                <a href="">
-                                    <div class="item ">
-                                        <div class="img-box ">
-                                            <i class="fa fa-phone" aria-hidden="true"></i>
-                                        </div>
-                                        <p>
-                                            +02 1234567890
-                                        </p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-4">
-                                <a href="">
-                                    <div class="item ">
-                                        <div class="img-box">
-                                            <i class="fa fa-envelope" aria-hidden="true"></i>
-                                        </div>
-                                        <p>
-                                            demo@gmail.com
-                                        </p>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="social-box">
-            <h4>
-                Follow Us
-            </h4>
-            <div class="box">
-                <a href="">
-                    <i class="fa fa-facebook" aria-hidden="true"></i>
-                </a>
-                <a href="">
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                </a>
-                <a href="">
-                    <i class="fa fa-youtube" aria-hidden="true"></i>
-                </a>
-                <a href="">
-                    <i class="fa fa-instagram" aria-hidden="true"></i>
-                </a>
-            </div>
-        </div>
-    </section>
-
-
-
-    <!-- end info_section -->
-
-    <!-- footer section -->
-    <footer class="footer_section">
-        <div class="container">
-            <p>
-                &copy; <span id="displayDateYear"></span> All Rights Reserved By
-                <a href="https://html.design/">Free Html Templates</a>
-            </p>
-        </div>
-    </footer>
-    <!-- footer section -->
-
-    <script src="js/jquery-3.4.1.min.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
-    </script>
-    <script src="js/custom.js"></script>
-    <!-- Google Map -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
-    <!-- End Google Map -->
-    <!-- ajax -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- javascript -->
+    <script src="assets/js/about.js"></script>
 </body>
-<script>
-    $(document).ready(function() {
-        // halaman default
-        $('#konten').load('vision.html');
-
-        // fungsi yang mengatur konten mana yang akan ditampilkan
-        $('#menu a').click(function() {
-            // mengambil data dari href
-            var hal = $(this).attr('href');
-            // konten akan diisi oleh menu yang dipilih sesuai dengan isi dari href yang dipilih
-            $('#konten').load(hal + ".html");
-            return false;
-        });
-    });
-</script>
 
 </html>
