@@ -122,6 +122,13 @@
     .service_section .box {
         height: 25rem;
     }
+    form#contact {
+        overflow: hidden;
+        padding: 45px;
+    }
+    .contact-info {
+        margin-top: 60px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -174,6 +181,9 @@
     }
     .blog-meta h4 {
         font-size: 18px;
+    }
+    form#contact {
+        padding: 30px;
     }
 }
 
