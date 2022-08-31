@@ -22,6 +22,7 @@ preloader
     z-index: 9999;
     -webkit-transition: opacity 0.25s ease;
     transition: opacity 0.25s ease;
+    text-align: center;
 }
 
 .js-preloader.loaded {
