@@ -1,6 +1,10 @@
 @media (max-width: 1300px) {}
 
-@media (max-width: 1120px) {}
+@media (max-width: 1120px) {
+    .detail-box {
+        margin-top: 8rem;
+    }
+}
 
 @media (max-width: 992px) {
     .hero_area {
@@ -210,6 +214,9 @@
     }
     .service_section .box {
         height: 18rem;
+    }
+    .float i {
+        font-size: 15px;
     }
 }
 

@@ -33,6 +33,7 @@
     <!-- responsive style -->
     <link href="assets/css/responsive.css " rel="stylesheet " />
     <link href="assets/css/preloader.css " rel="stylesheet " />
+    <link href="assets/css/navbar.css " rel="stylesheet " />
 
 </head>
 
@@ -50,70 +51,65 @@
         </div>
     </div>
 
+    <!-- Progges Bar -->
+    <div class="progress-bar" id="myBar"></div>
+
     <div class="hero_area" id="home">
         <!-- header section strats -->
         <header class="header_section ">
-            <div class="header_top ">
-                <div class="container-fluid ">
-                    <div class="contact_nav ">
-                        <a href="#" style="cursor:default ;">
-                            <i class="fas fa-phone-alt"></i>
-                            <span>Kantor Pusat : (0343) 5650727</span>
-                        </a>
-                        <a href="#" style="cursor:default ;">
-                            <i class="fas fa-phone-office"></i>
-                            <span>Sentra Komunikasi : (0343) 5650729</span>
-                        </a>
-                        <a href="https://www.facebook.com/official.jpt/">
-                            <i class="fab fa-facebook"></i>
-                            <span>Akun Instagram Resmi : @official.jpt</span>
-                        </a>
-                        <a href="https://www.instagram.com/official.jpt/">
-                            <i class="fab fa-instagram"></i>
-                            <span>Akun Facebook Resmi : Jasamarga Pandaan Tol</span>
-                        </a>
+            <!-- Pre-header Starts -->
+            <div class="pre-header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-sm-8 col-7">
+                            <ul class="info">
+                                <li><a href="#"><i class="fas fa-phone-alt"></i>(0343) 5650727</a></li>
+                                <li><a href="#"><i class="fas fa-phone-office"></i>(0343) 5650729</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 col-sm-4 col-5">
+                            <ul class="social-media">
+                                <li><a href="https://www.facebook.com/official.jpt/" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="https://www.instagram.com/official.jpt/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="header_bottom">
-                <div class="container-fluid ">
-                    <nav class="navbar navbar-expand-lg custom_nav-container ">
-                        <a class="navbar-brand " href="index.html ">
-                            <img src="assets/images/logo-jpt1.png" alt="" width="100px" title="Jasamarga Pandaan Tol">&nbsp;&nbsp;
-                            <img src="assets/images/logo-jpt2.png" alt="" width="100px" title="Green Tol Indonesia">
-                        </a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class=""> </span></button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#home">Home</a>
-                                </li>
-                                <li class="nav-item dropdown dropdown-8">
-                                    <a class="nav-link" href="about.html">Profil Perusahaan <i class="fas fa-caret-down"></i></a>
-                                    <ul class="dropdown_menu dropdown_menu--animated dropdown_menu-8">
-                                        <li class="dropdown_item-1"><a href="#">VISI, MISI DAN TATA NILAI</a></li>
-                                        <li class="dropdown_item-2"><a href="#">STRUKTUR ORAGANISASI</a></li>
-                                        <li class="dropdown_item-3"><a href="#">SUSUNAN DEWAN KOMISARIS</a></li>
-                                        <li class="dropdown_item-4"><a href="#">SUSUNAN DIREKSI</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item ">
-                                    <a class="nav-link " href="Berita.html">Berita</a>
-                                </li>
-                                <li class="nav-item ">
-                                    <a class="nav-link " href="# ">Galeri</a>
-                                </li>
-                                <li class="nav-item ">
-                                    <a class="nav-link " href="contact.html">Kontak</a>
-                                </li>
-                                <li class="nav-item ">
-                                    <a class="nav-link " href="https://ptjpt.co.id/?page_id=275">Login</a>
-                                </li>
-                            </ul>
+            <!-- Pre-header End -->
+            <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <nav class="main-nav">
+                                <!-- ***** Logo Start ***** -->
+                                <a href="index.html" class="logo">
+                                    <img src="assets/images/logo-jpt1.png" alt="">
+                                </a>
+                                <a href="index.html" class="logo1">
+                                    <img src="assets/images/logo-jpt2.png" alt="">
+                                </a>
+                                <!-- ***** Logo End ***** -->
+                                <!-- ***** Menu Start ***** -->
+                                <ul class="nav">
+                                    <li class="scroll-to-section"><a href="index.html" class="active">Home</a></li>
+                                    <li class="scroll-to-section"><a href="about.html">About</a></li>
+                                    <li class="scroll-to-section"><a href="gallery.html">Gallery</a></li>
+                                    <li class="scroll-to-section"><a href="Berita.html">Berita</a></li>
+                                    <li class="scroll-to-section"><a href="contact.html">Contact</a></li>
+                                    <li class="scroll-to-section">
+                                        <div class="border-first-button"><a href="#contact">Login</a></div>
+                                    </li>
+                                </ul>
+                                <a class='menu-trigger'>
+                                    <span>Menu</span>
+                                </a>
+                                <!-- ***** Menu End ***** -->
+                            </nav>
                         </div>
-                    </nav>
+                    </div>
                 </div>
-            </div>
+            </header>
         </header>
         <!-- end header section -->
         <!-- slider section -->
@@ -127,7 +123,7 @@
                             <marquee scrollamount="5"><strong> Up E-Money bisa dilakukan di Exit Gerbang Tol Pandaan dan Gempol
                         | Arus lalu lintas Gempol - Pandaan aman & lancar | Info Tol (0343) 5650729</strong>
                             </marquee>
-                            <a href="#contact">Contact Us</a>
+                            <a href="contact.html">Contact Us</a>
                         </div>
                     </div>
                 </div>
@@ -154,14 +150,14 @@
 
     <!-- about section -->
 
-    <section class="about_section layout_padding-bottom ">
+    <section class="about_section layout_padding-bottom" id="about">
         <div class="container ">
+            <div class="heading_container heading_center ">
+                <h2> About Us </h2>
+            </div>
             <div class="row ">
                 <div class="col-lg-5 col-md-6 ">
                     <div class="detail-box ">
-                        <h2>
-                            About us
-                        </h2>
                         <p>
                             Jalan Tol Gempol – Pandaan merupakan bagian dari rencana pembangunan jalan bebas hambatan Surabaya-Malang yang sejak tahun 1970 telah dibuat pra-study kelayakannya oleh Pemerintah. Sebagai jalan penghubung alternatif antara Surabaya dengan Malang, jalan
                             tol ini akan berperan strategis untuk pengembangan wilayah, yaitu sebagai penghubung pusat-pusat kegiatan ekonomi seperti Pelabuhan Tanjung Perak, Kawasan Industri dan Perdagangan serta Perkebunan/Pertanian/ Pariwisata di wilayah
@@ -245,6 +241,9 @@
 
     <section class="popular-categories">
         <div class="container-fluid">
+            <div class="heading_container heading_center ">
+                <h2> Galeri </h2>
+            </div>
             <div class="row">
                 <div class="col-lg-3 col-sm-6">
                     <div class="popular-item">
@@ -336,56 +335,6 @@
 
     <!-- end client section -->
 
-    <!-- contact section -->
-
-    <section class="contact_section layout_padding" id="contact">
-        <div class="container ">
-            <div class="heading_container ">
-                <h2>
-                    Contact Us
-                </h2>
-            </div>
-            <div class="row ">
-                <div class="col-md-6 ">
-                    <form action=" ">
-                        <div>
-                            <input type="text " placeholder="Name " />
-                        </div>
-                        <div>
-                            <input type="text " placeholder="Phone Number " />
-                        </div>
-                        <div>
-                            <input type="email " placeholder="Email " />
-                        </div>
-                        <div>
-                            <input type="text " class="message-box " placeholder="Message " />
-                        </div>
-                        <div class="d-flex ">
-                            <button> SEND </button>
-                        </div>
-                    </form>
-                </div>
-                <div class="col-md-6 ">
-                    <div class="map_container ">
-                        <div id="map">
-                            <!-- How to change your own map point
-                                1. Go to Google Maps
-                                2. Click on your location point
-                                3. Click "Share" and choose "Embed map" tab
-                                4. Copy only URL and paste it within the src="" field below
-                            -->
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15816.64036054489!2d112.7050177!3d-7.6659317!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9a04c81ec3fb889!2sPT.%20Jasamarga%20Pandaan%20Tol!5e0!3m2!1sid!2sid!4v1650170339505!5m2!1sid!2sid"
-                                width="100% " height="500 " frameborder="0 " style="border:0 " allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- end contact section -->
-
     <!-- footer section -->
     <footer class="footer_section ">
         <div class="container ">
@@ -393,11 +342,15 @@
                 <script>
                     document.write(new Date().getFullYear());
                 </script>
-                &copy; <a href="https://ptjpt.co.id/">PT Jasamarga Pandaan Tol.</a> | Kelompok Usaha <a href="www.jasamarga.com">PT Jasa Marga (Persero) Tbk </a>
+                &copy; <a href="https://ptjpt.co.id/" target="_blank">PT Jasamarga Pandaan Tol.</a> | Kelompok Usaha <a href="www.jasamarga.com">PT Jasa Marga (Persero) Tbk </a>
             </p>
         </div>
     </footer>
     <!-- footer section -->
+
+    <a class="float" onclick="topFunction()" id="float">
+        <i class="fa fa-arrow-up"></i>
+    </a>
 
     <script src="assets/js/jquery-3.4.1.min.js"></script>
     <script src="assets/js/bootstrap.js"></script>
@@ -407,15 +360,38 @@
 
     <!-- Sticky navbar -->
     <script>
-        $(window).scroll(function() {
-            var sticky = $('.header_bottom'),
-                scroll = $(window).scrollTop();
+        // Get the button:
+        let mybutton = document.getElementById("float");
 
-            if (scroll >= 100) sticky.addClass('fixed');
-            else sticky.removeClass('fixed');
-        });
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {
+            scrollFunction()
+            myFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 900 || document.documentElement.scrollTop > 900) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+
+        //Page Progges Bar
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+
+        function myFunction() {
+            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            var scrolled = (winScroll / height) * 100;
+            document.getElementById("myBar").style.width = scrolled + "%";
+        }
     </script>
-    <!-- End Sticky navbar -->
 </body>
 
 </html>

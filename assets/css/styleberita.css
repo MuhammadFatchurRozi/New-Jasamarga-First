@@ -59,6 +59,11 @@ a {
     text-decoration: none !important;
 }
 
+img {
+    width: 100%;
+    overflow: hidden;
+}
+
 
 /* SECTIONS
 **************************************/
