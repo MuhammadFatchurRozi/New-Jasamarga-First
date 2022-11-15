@@ -1,0 +1,37 @@
+.float {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 20px;
+    right: 20px;
+    background-color: #726ae3;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.float i {
+    margin-top: 16px;
+    color: #fff;
+}
+
+.float:hover {
+    background-color: #035bdf;
+}
+
+.hidden {
+    display: none;
+}
+
+
+/* The progress bar (scroll indicator) */
+
+.progress-bar {
+    height: 8px;
+    background: #726ae3;
+    width: 0%;
+    z-index: 1000;
+    position: fixed;
+}

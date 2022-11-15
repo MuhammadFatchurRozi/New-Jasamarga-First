@@ -62,6 +62,8 @@
   ===============  
   */
 
+
+/* 
 *,
  ::after,
  ::before {
@@ -76,20 +78,6 @@ body {
     color: var(--clr-grey-1);
     line-height: 1.5;
     font-size: 0.875rem;
-}
-
-ul {
-    /* list-style-type: none; */
-    list-style-position: inside;
-}
-
-ol {
-    /* list-style-type: none; */
-    list-style-position: inside;
-}
-
-a {
-    text-decoration: none;
 }
 
 .foto {
@@ -152,7 +140,7 @@ p {
     h4 {
         line-height: 1;
     }
-}
+} */
 
 
 /* global classes */
@@ -182,6 +170,10 @@ p {
 
 .section {
     padding: 5rem 0;
+}
+
+.section-heading .line-dec {
+    margin: 0 auto;
 }
 
 .section-center {

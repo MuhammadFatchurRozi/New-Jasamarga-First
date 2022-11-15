@@ -3,6 +3,15 @@ img {
     overflow: hidden;
 }
 
+::selection {
+    background: #726ae3;
+    color: #fff !important;
+}
+
+::-moz-selection {
+    background: #726ae3;
+}
+
 
 /* Pre-Header */
 
@@ -27,7 +36,7 @@ img {
 }
 
 .pre-header ul.info li a:hover {
-    color: #0355cc;
+    color: #726ae3;
 }
 
 .pre-header ul.info li a i {
@@ -61,7 +70,7 @@ img {
 }
 
 .pre-header ul.social-media li a:hover {
-    background-color: #0355cc;
+    background-color: #726ae3;
 }
 
 
@@ -172,7 +181,7 @@ img {
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-    color: #0355cc!important;
+    color: #726ae3!important;
 }
 
 .header-area .main-nav .nav li.submenu {
@@ -229,7 +238,7 @@ img {
 
 .header-area .main-nav .nav li.submenu ul li a:hover {
     background: #fff;
-    color: #0355cc!important;
+    color: #726ae3!important;
     padding-left: 25px;
 }
 
@@ -346,14 +355,14 @@ img {
 }
 
 .header-area.header-sticky .nav li a.active {
-    color: #0355cc;
+    color: #726ae3;
 }
 
 .border-first-button a {
     display: inline-block !important;
     padding: 10px 20px !important;
-    color: #000 !important;
-    border: 1px solid #F3CF08 !important;
+    color: #726ae3 !important;
+    border: 1px solid #726ae3 !important;
     border-radius: 23px;
     font-weight: 500 !important;
     letter-spacing: 0.3px !important;
@@ -361,9 +370,37 @@ img {
 }
 
 .border-first-button a:hover {
-    background-color: #F3CF08;
+    background-color: #726ae3;
     color: #fff !important;
 }
+
+
+/* footer section*/
+
+footer {
+    background-image: url(../images/footer-bg-v3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 130px;
+}
+
+footer p {
+    text-align: center;
+    margin: 20px 0px;
+    color: #fff;
+}
+
+footer p a {
+    color: #fff;
+    transition: all .5s;
+}
+
+
+/* end footer section*/
+
+
+/* start responsive css*/
 
 @media (max-width: 1200px) {
     .header-area .main-nav .nav li {
@@ -391,7 +428,7 @@ img {
     }
     .header-area.header-sticky .nav li a:hover,
     .header-area.header-sticky .nav li a.active {
-        color: #fa65b1!important;
+        color: #726ae3!important;
         opacity: 1;
     }
     .header-area.header-sticky .nav li.search-icon a {
@@ -454,7 +491,7 @@ img {
     }
     .header-area .main-nav .nav li a:hover {
         background: #eee !important;
-        color: #fa65b1!important;
+        color: #726ae3!important;
     }
     .header-area .main-nav .nav li.submenu ul {
         position: relative;
@@ -495,3 +532,6 @@ img {
         display: flex !important;
     }
 }
+
+
+/* End Responsive CSS */
