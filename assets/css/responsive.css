@@ -1,10 +1,6 @@
 @media (max-width: 1300px) {}
 
-@media (max-width: 1120px) {
-    .detail-box {
-        margin-top: 8rem;
-    }
-}
+@media (max-width: 1120px) {}
 
 @media (max-width: 992px) {
     .hero_area {
@@ -51,77 +47,6 @@
     .feature_section {
         transform: none;
         padding: 90px 0;
-    }
-    .dropdown {
-        display: grid;
-    }
-    .dropdown_menu {
-        position: relative;
-        top: 0;
-        width: auto;
-    }
-    .dropdown_menu a {
-        font-size: 11px;
-    }
-    .dropdown_menu-8 {
-        animation: none;
-        transform-origin: none;
-    }
-    .dropdown_menu-8 .dropdown_item-1 {
-        transform-origin: top center;
-        animation: slideDown 300ms 60ms ease-in-out forwards;
-    }
-    .dropdown_menu-8 .dropdown_item-2 {
-        transform-origin: top center;
-        animation: slideDown 300ms 120ms ease-in-out forwards;
-    }
-    .dropdown_menu-8 .dropdown_item-3 {
-        transform-origin: top center;
-        animation: slideDown 300ms 180ms ease-in-out forwards;
-    }
-    .dropdown_menu-8 .dropdown_item-4 {
-        transform-origin: top center;
-        animation: slideDown 300ms 240ms ease-in-out forwards;
-    }
-    @-moz-keyframes slideDown {
-        0% {
-            opacity: 0;
-            transform: translateY(-60px);
-        }
-        100% {
-            opacity: 1;
-            transform: translateY(0);
-        }
-    }
-    @-webkit-keyframes slideDown {
-        0% {
-            opacity: 0;
-            transform: translateY(-60px);
-        }
-        100% {
-            opacity: 1;
-            transform: translateY(0);
-        }
-    }
-    @-o-keyframes slideDown {
-        0% {
-            opacity: 0;
-            transform: translateY(-60px);
-        }
-        100% {
-            opacity: 1;
-            transform: translateY(0);
-        }
-    }
-    @keyframes slideDown {
-        0% {
-            opacity: 0;
-            transform: translateY(-60px);
-        }
-        100% {
-            opacity: 1;
-            transform: translateY(0);
-        }
     }
     .service_section .box {
         height: 25rem;
@@ -205,6 +130,10 @@
     .blog-meta.big-meta h4 {
         font-size: 21px;
     }
+    .popular-categories {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
 }
 
 @media (max-width: 480px) {
@@ -222,7 +151,7 @@
 
 @media (max-width: 400px) {}
 
-@media (max-width: 360px) {
+@media screen and (max-width: 360px) {
     .service_section .box {
         height: 22rem;
     }

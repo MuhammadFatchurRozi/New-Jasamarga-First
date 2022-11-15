@@ -267,3 +267,15 @@ hr.invis3 {
 .blog-grid-system .col-md-6 {
     margin-bottom: 3rem;
 }
+
+.blog-grid-system {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section-heading {
+    text-align: center;
+    margin-bottom: 1rem;
+}
