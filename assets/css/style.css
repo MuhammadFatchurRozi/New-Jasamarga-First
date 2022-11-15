@@ -326,7 +326,8 @@ popular categories
 */
 
 section.popular-categories {
-    padding: 0px 65px;
+    padding-left: 65px;
+    padding-right: 65px;
     background: url('../images/background.jpg');
 }
 
