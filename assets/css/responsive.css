@@ -104,6 +104,11 @@
     .about_section .detail-box {
         margin-bottom: 45px;
     }
+    .about_section .detail-box a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .contact_section form {
         margin-bottom: 45px;
     }

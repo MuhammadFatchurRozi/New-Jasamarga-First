@@ -105,6 +105,10 @@ section div {
     transform: scale(1.1);
 }
 
+.post-media {
+    border-radius: 10px;
+}
+
 
 /* PAGES 
 **************************************/
@@ -112,7 +116,11 @@ section div {
 .page-link {
     background-color: #edeff2 !important;
     border: 0 dashed #e2e2e2;
-    border-radius: 0;
+    border-radius: 10px;
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
     color: #a3a5a8 !important;
     display: block;
     font-size: 14px;
@@ -130,11 +138,6 @@ section div {
 
 .page-item:first-child .page-link {
     margin-left: 0;
-    border-radius: 0;
-}
-
-.page-item:last-child .page-link {
-    border-radius: 0;
 }
 
 
